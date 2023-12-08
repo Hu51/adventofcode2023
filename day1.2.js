@@ -1,8 +1,7 @@
 // read lines form file
 
 const fs = require('fs');
-const { isNumberObject } = require('util/types');
-const lines = fs.readFileSync('./data.txt', 'utf8').split('\n');
+const lines = fs.readFileSync('./data/day1.txt', 'utf8').split('\n');
 
 let all = 0;
 const validDigits = ',one,two,three,four,five,six,seven,eight,nine,1,2,3,4,5,6,7,8,9,'.split(',');
